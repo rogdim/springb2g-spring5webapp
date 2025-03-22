@@ -1,3 +1,5 @@
+HELP.md
+
 ######################
 # Project Specific
 ######################
@@ -18,46 +20,21 @@ npm-debug.log.*
 ######################
 .sass-cache/
 
-######################
-# Eclipse
-######################
-*.pydevproject
-.project
-.metadata
-tmp/
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
+### STS ###
+.apt_generated
 .classpath
-.settings/
-.loadpath
 .factorypath
-/src/main/resources/rebel.xml
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# External tool builders
-.externalToolBuilders/**
 
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
-######################
-# Intellij
-######################
-.idea/
-*.iml
+### IntelliJ IDEA ###
+.idea
 *.iws
+*.iml
 *.ipr
-*.ids
-*.orig
 
 ######################
 # Visual Studio Code
