@@ -19,6 +19,6 @@ public class BookController {
     public String getBooks(Model model) {
         Iterable<Book> books = bookRepository.findAll();
         model.addAttribute("books", books);
-        return "books";
+        return "books/list";
     }
 }
